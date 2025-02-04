@@ -81,4 +81,11 @@ The extremely small p-value (much smaller than 0.05) indicates statistically sig
 | AOS vs GA  | **0.0000** | AOS significantly outperforms GA |
 | PSO vs GA  | **0.0000** | PSO significantly outperforms GA |
 
-These results suggest that **AOS and PSO perform similarly**, while both **AOS and PSO significantly outperform GA** in the tested problems.
+These results suggest that AOS, while inspired by quantum mechanics, may be a variation of PSO, sharing similar mechanisms and effectiveness, as they both **perform similarly**, while both **AOS and PSO significantly outperform GA** in the tested problems. 
+
+## Main libraries
+`Niapy`
+`GeneticAlgorithm`
+`PySwarms`
+`Matplotlib`
+`SciPy`
