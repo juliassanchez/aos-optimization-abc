@@ -61,7 +61,7 @@ function (F) and its optimal fitness (OF) are also displayed:
 - **PSO** is the fastest algorithm, with an average execution time of **0.2644s**. It achieves a higher optimal count (**3.81**) than GA, indicating better success in finding optimal solutions.  
 - **AOS** outperforms both GA and PSO in terms of **optimal count (4)**, making it the most reliable for finding optimal solutions. Although its execution time (**0.6703s**) is higher than PSO, it remains competitive and consistently produces strong best fitness values, highlighting its robustness.  
 
-## **Statistical Analysis of Performance**
+## Statistical Analysis
 
 To rigorously compare the performance of AOS, PSO, and GA, we conducted two non-parametric statistical tests:  
 
@@ -70,7 +70,7 @@ To rigorously compare the performance of AOS, PSO, and GA, we conducted two non-
 
 ### **Friedman Test Results**
 - **Test statistic:** 30.54  
-- **p-value:** \(2.33 \times 10^{-7}\)  
+- **p-value:** $2.33 \times 10^{-7}$  
 
 The extremely small p-value (much smaller than 0.05) indicates statistically significant differences in the performance of the three algorithms. This allows us to **reject the null hypothesis**, confirming that at least one algorithm outperforms the others.
 
